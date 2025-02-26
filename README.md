@@ -2,6 +2,9 @@
 
 You are designing a distributed database system where a Primary Database handles writes, and multiple Read Replicas serve read queries. The system should support various replication strategies and ensure high availability in case of primary failure.
 
+<img width="402" alt="image" src="https://github.com/user-attachments/assets/a562ea41-1fe5-4982-bc28-a620b0b1e9b2" />
+
+
 ## Requirements
 - Replication Strategies:
   * Asynchronous Replication (Eventual Consistency): Write to the primary first and propagate changes to replicas asynchronously.
