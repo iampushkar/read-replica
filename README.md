@@ -16,3 +16,5 @@ You are designing a distributed database system where a Primary Database handles
 
 - Failover Mechanism:
   * If the Primary Database fails, one of the replicas should be promoted to Primary after a Leader Election process.
+
+read - [Amazon RDS Read Replicas](https://aws.amazon.com/rds/features/read-replicas/)
